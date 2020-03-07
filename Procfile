@@ -1,1 +1,1 @@
-web: gunicorn jsclub-django.wsgi
+web: gunicorn jsclub-django.py

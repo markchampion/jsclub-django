@@ -1,1 +1,1 @@
-web: gunicorn jsclub-django.py
+web: gunicorn manage.py

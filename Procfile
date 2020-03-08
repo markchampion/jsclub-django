@@ -1,1 +1,1 @@
-web: gunicorn jsclub-django.wsgi --log-file -
+web: gunicorn myproject.wsgi

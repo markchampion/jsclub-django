@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'confession.apps.ConfessionConfig',
     'comment.apps.CommentConfig',
     'page.apps.PageConfig',
+    'allauth.socialaccount',
 ]
 
 SITE_ID = 1

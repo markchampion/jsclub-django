@@ -26,4 +26,5 @@ urlpatterns = [
     path('confession/', include('confession.urls')),
     path('comment/', include('comment.urls')),
     path('page/', include('page.urls')),
+
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
